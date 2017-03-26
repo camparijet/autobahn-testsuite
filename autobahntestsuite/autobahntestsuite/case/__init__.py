@@ -97,6 +97,7 @@ from case1_1_5 import *
 from case1_1_6 import *
 from case1_1_7 import *
 from case1_1_8 import *
+from case1_1_9 import *
 
 from case1_2_1 import *
 from case1_2_2 import *
@@ -262,7 +263,7 @@ from case12_x_x import *
 ## This is the list of Case classes that will be run by the fuzzing server/client
 ##
 Cases = []
-Cases += [Case1_1_1, Case1_1_2, Case1_1_3, Case1_1_4, Case1_1_5, Case1_1_6, Case1_1_7, Case1_1_8]
+Cases += [Case1_1_1, Case1_1_2, Case1_1_3, Case1_1_4, Case1_1_5, Case1_1_6, Case1_1_7, Case1_1_8, Case1_1_9]
 Cases += [Case1_2_1, Case1_2_2, Case1_2_3, Case1_2_4, Case1_2_5, Case1_2_6, Case1_2_7, Case1_2_8]
 Cases += [Case2_1, Case2_2, Case2_3, Case2_4, Case2_5, Case2_6, Case2_7, Case2_8, Case2_9, Case2_10, Case2_11]
 Cases += [Case3_1, Case3_2, Case3_3, Case3_4, Case3_5, Case3_6, Case3_7]
